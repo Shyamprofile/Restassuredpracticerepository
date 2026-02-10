@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name= "api.utilities.Listenerclass"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="petstore.Practicepetstoretestusingdataprovider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
