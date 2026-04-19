@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build GIT') {
             steps {
-              bat 'mvn -Dtest=CreateUser test'
+              bat 'mvn -Dtest=testng.xml test'
             }
         }
         
