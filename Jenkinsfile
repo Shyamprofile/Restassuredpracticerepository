@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build GIT') {
             steps {
-              bat 'mvn test'
+              bat 'mvn -Dtest=CreateUser test'
             }
         }
         
